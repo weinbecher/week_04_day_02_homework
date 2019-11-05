@@ -1,0 +1,49 @@
+body {
+  background-color: #f4f4f4;
+  font-family: 'News Cycle', sans-serif;
+  }
+
+h1  {
+  color: #505050;
+  text-align: center;
+}
+
+p {
+  color: #505050;
+  text-align: left;
+  padding-left: 30px;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/* a:hover {
+  color: hotpink;
+} */
+li:hover {
+  background-color: hotpink;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+
+li {
+  color:green;
+  text-align: left;
+}
+
+button {
+  font-size: 20px;
+  float: right;
+
+}
+
+
+button:hover {
+  background-color: hotpink;
+}

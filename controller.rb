@@ -11,12 +11,12 @@ get '/films' do
 end
 
 
-get '/film/:id' do
+get '/films/:id' do
   id = params[:id]
   @film = Film.find_by_id(id)
+  erb( :"films/film" )
 
 end
-
 
 
 

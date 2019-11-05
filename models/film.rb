@@ -42,6 +42,18 @@ class Film
     return customers.count
   end
 
+
+  def self.find_by_id(id)
+    sql = "SELECT * FROM films WHERE id = $1"
+    values = [id]
+    results = SqlRunner.run(sql, values)
+    film_hash = results.first
+    film = Film.new(film_hash)
+    return film
+  end
+
+
+
   def self.all()
     sql = "SELECT * FROM films"
     film_data = SqlRunner.run(sql)

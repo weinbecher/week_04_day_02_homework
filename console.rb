@@ -51,5 +51,5 @@ customer3.pay_for_ticket(ticket6)
 
 customer4.pay_for_ticket(ticket7)
 
-# binding.pry
-# nil
+binding.pry
+nil
